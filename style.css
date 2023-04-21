@@ -221,11 +221,10 @@ width: 18.5px;
 height: 2.4px;
 background-color: #0C4B35;    
 }
-.present{
-margin-top: -17px;
-}
+
 }
 .present{
+margin-top: -17px;    
 display: flex;
 height: 579px;
 width: 1536px;
