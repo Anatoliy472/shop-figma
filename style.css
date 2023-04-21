@@ -5,21 +5,26 @@ background-color:rgb(223, 236, 250);
 *{box-sizing: border-box;}
 
 .header{
-width: 1920px; 
+width: 1537px;
 color: white;
 }
 .container-menu{
 height: 144px;
-width: 1920px; 
+width: 100%; 
 display: block;
 }
 .container-up{
  background-color: #0C4B35;
-height: 59px;   
+height: 59px;
+width: 100%;   
 }
 .container-down{
 background-color: white;
-height: 85px;    
+height: 85px;  
+width: 100%;  
+position: relative;    
+display: flex; 
+
 }
 .information{
 display: flex;    
@@ -30,35 +35,36 @@ line-height: 60px;
 
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:1200px) {
 
 *{box-sizing: border-box;
 }    
 .header{
-width: 100%; 
+width: 1536px; 
     
 }
 
 .container-menu{
 height: 144px;
-width: 390px; 
+width: 100%; 
 display: block;
     }
 .container-up{
 background-color: #0C4B35;
-width: 390px;
+width: 100%;
 height: 55px;   
+margin-left: 0px;
 }
 
 .container-down{
 background-color: white;
 height: 70px;
-width: 390px;    
+width: 100%;   
+margin-left: 0px; 
 }
 
 .information{
-/* display: flex;     */
-margin-left: 10px;
+margin-left: 25px;
 line-height: 60px;
 }
     
@@ -76,7 +82,9 @@ padding-left: 11px;
 text-decoration: none;  
 list-style-type: none;    
 color: inherit;
-}  
+}
+
+
 .block-inf{
 padding-left: 17px ;    
 display: block;    
@@ -98,7 +106,7 @@ color: inherit;
 margin-bottom: -6px;    
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:1200px){
 .information span{
 font-size: 14px;
 }
@@ -124,36 +132,30 @@ margin-top: 5px;
 }
 
 .english{
-margin-left: 247px;    
+margin-left: 92%;    
 display: inline-block;
 }
-
 }
 
 
-
-.container-down{
-position: relative;    
-display: flex;    
-}
 .logo-menu img{
  margin: 15px 269px;   
 }
-.call-menu-flex{
-display: flex;    
-}
+
 .call-menu{
 display: block;    
-margin: 15px 434px;     
-width: 170px; 
-height: 50px;   
+margin-left: 28.5%;
+margin-top: 20px;
+width: 165px; 
+height: 45px;   
 background-color: #00730C;
 border-radius: 5px ; 
 text-align: center;
 
 }
 .call{
-margin: 0 15px;
+margin: 12px 30px;
+display: flex;
 }
 .call-menu a{
 display: inline-block; 
@@ -163,32 +165,26 @@ color: white;
 font-size: 18px;
 font-weight: 700;
 }
-.call img{
-margin-top: 5px;    
-}
-.call span{
-padding-top: 8px;    
-}
-.menu-a-call{
-display: block;    
+.call-phone-menu{
+display: block;
+margin: -2px 8px;
 }
 
-@media screen and  (max-width:375px) {
+
+@media screen and  (max-width:1200px) {
 
 .logo-menu img{
 width: 90px;
 height: 40px;     
-margin: 15px 10px; 
+margin: 15px 20px; 
 }    
 .call-menu{
-margin: 15px 90px;     
+margin: 15px 80%;     
 width: 40px; 
 height: 35px;   
 }
-.call img{
-margin: 7px -4px;
-width: 20px; 
-height: 20px;   
+.call-phone-menu{
+margin: -7px -19px;
 }
 .call-menu{
 border-radius: 5px; 
@@ -204,7 +200,7 @@ position: absolute;
 display: block;    
 width: 30px;
 height: 19px;
-left: 69%;
+left: 94%;
 top: 33%;
 }
 .burger-up{
@@ -225,4 +221,68 @@ width: 18.5px;
 height: 2.4px;
 background-color: #0C4B35;    
 }
+}
+.present{
+display: flex;
+height: 579px;
+width: 1536px;
+background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
+
+}
+.present-fix{
+display: block;    
+height: 513px;
+width: 768px;   
+    
+}
+.present-img {
+display: block;    
+height: 513px;
+width: 768px;
+}
+.present-img img{
+margin-top: 45px ;
+margin-left: -1px;  
+}
+.present-fix-up{
+ line-height: 60px;   
+ position: relative;   
+display: block;
+height: 385px;
+width: 495px;
+margin-left: 215px;
+margin-top: 85px;
+
+}
+.preset-fix-img-flower{
+position: absolute; 
+left: -43%;
+top: 50%;
+}
+.present-fix-btn-left{
+font-size: 17px;    
+color: white;    
+width: 160px;
+height: 40px;
+background-color:#00730C;
+border: #00730C 1px solid;
+border-radius: 5px;
+}
+
+.fix-500{
+border-radius: 35px;  
+background: linear-gradient(72.71deg, #00730C -83.5%, #F9F9F9 93.84%);
+padding: 15px 7px;
+
+}
+.fix-800{
+border-radius: 35px;  
+background: linear-gradient(72.71deg, #00730C -83.5%, #F9F9F9 93.84%);
+padding: 15px 7px;   
+    
+}
+.fix-100{
+border-radius: 35px;  
+background: linear-gradient(72.71deg, #00730C -83.5%, #F9F9F9 93.84%);
+padding: 15px 7px;   
 }
